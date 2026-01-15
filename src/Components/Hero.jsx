@@ -1,4 +1,8 @@
 import React from "react";
+import b1 from '../../public/images/b4.png'
+import b2 from '../../public/images/b5.png'
+import b3 from '../../public/images/b6.png'
+import b4 from '../../public/images/b7.png'
 
 const Hero = () => {
   return (
