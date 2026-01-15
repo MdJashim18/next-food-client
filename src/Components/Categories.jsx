@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 export default function Categories() {
     const [categories, seCategories] = useState([])
     
-    const categoryImages = [
+    const categoryImg = [
         "https://i.ibb.co.com/N2zs1DJh/Double-Bacon-Cheeseburger.jpg",
         "https://i.ibb.co.com/r2d3vn04/Classic-Margherita-Pizza-Game-Night-022.jpg",
         "https://i.ibb.co.com/LjmcmtB/Chocolate-Lava-Cake.jpg",
@@ -50,7 +50,7 @@ export default function Categories() {
                         >
                             <div className="absolute inset-0">
                                 <img 
-                                    src={categoryImages[index % categoryImages.length]}
+                                    src={categoryImg[index % categoryImg.length]}
                                     alt={cat.name}
                                     className="w-full h-full object-cover"
                                 />
